@@ -11,6 +11,7 @@ import { PanelBotonesComponent } from './panel-botones/panel-botones.component';
 })
 export class AppComponent {
   title = 'Menu Principal';
-  logoAngular = 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg';
+  /*logoAngular = 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg';*/
+  logoAngular = 'https://efeverde.com/wp-content/uploads/2022/01/1381571.jpg';
   logoReact = 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg';
 }

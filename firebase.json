@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist\\diplomadov2\\browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
