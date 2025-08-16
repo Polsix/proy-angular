@@ -1,15 +1,11 @@
 <img [src]="imageUrl" >
-<input [(ngModel)]="valorInput">
-<button (click)="limpiarCajaTexto()">Enviar</button>
-<c1 (clicked)="botonPresionado($event)"></c1>
-<c1></c1>
 <div class="pill-group">
         @for (item of [
-          { title: 'Explore the Docs', link: 'https://angular.dev', discount: '10%' },
-          { title: 'Learn with Tutorials', link: 'https://angular.dev/tutorials', discount: '10%' },
-          { title: 'CLI Docs', link: 'https://angular.dev/tools/cli', discount: '10%' },
-          { title: 'Angular Language Service', link: 'https://angular.dev/tools/language-service', discount: '10%' },
-          { title: 'Portafolio', link: 'https://polsix.github.io/portafolio-sixto/', discount: '10%' },
+          { title: '1. La Razon', link: 'https://larazon.bo/', discount: '0' },
+          { title: '2. Unitel', link: 'https://unitel.bo/', discount: '0' },
+          { title: '3. Hipermaxi', link: 'https://www.hipermaxi.com/santa-cruz/hipermaxi-roca-y-coronado', discount: '0' },
+          { title: '4. Quipus', link: 'https://quipus.gob.bo/', discount: '0' },
+          { title: '5. Portafolio', link: 'https://polsix.github.io/portafolio-sixto/', discount: '0' },
         ]; track item.title) {
           <pill-item [title]="item.title" [link]="item.link" [discount]="item.discount"></pill-item>
           
@@ -76,5 +72,4 @@
             />
           </svg>
         </a>
-        <c1></c1>
       </div>
